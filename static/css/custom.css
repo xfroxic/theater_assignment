@@ -1,0 +1,107 @@
+/* Container holding the image and the text */
+
+.picture {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+
+.centered {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Column template from W3 schools */
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: white;
+}
+
+.pat-container {
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    display: flex;
+}
+
+/* Used these for testing purposes */
+
+.franks-special-class h6 {
+    font-size: 1.8rem;
+}
+
+/* Used these for testing purposes */
+
+.franks-special-class h6:hover {
+    color: blue;
+}
+
+/* Used these for testing purposes */
+
+.franks-special-class h5 {
+    font-size: 1.4rem;
+}
+
+/* Used these for testing purposes */
+
+.franks-special-class p {
+    font-size: 1.2rem;
+}
+
+.limit {
+    width: 100%;
+    height: 280px;
+    max-height: 280px;
+    overflow: hidden;
+}
+
+.limit img {
+    width: 100%;
+    height: 100%;
+}
